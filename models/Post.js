@@ -19,7 +19,8 @@ const Post = sequelize.define("POST", {
 }, {
     tableName : "posts",
     timestamps : true,
-    underscored :  true
+    underscored :  true,
+    paranoid : true
 })
 
 module.exports = Post;

@@ -1,7 +1,7 @@
 const express = require("express")
 const dotenv = require("dotenv");
 const { connectDB } = require("./config/db");
-const userRouter = require("./routes/user.route");
+const userRouter = require("./routes/auth.route");
 const cookieParser = require("cookie-parser");
 const postRouter = require("./routes/post.route");
 const commentRouter = require("./routes/comment.route");
